@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* Respeita o tamanho da caixa */
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    /* sans-serif para se o servidor não funcionar */
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    text-align: center;
+    border: 2px solid #ccc;
+}
+
+header h1{
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+
+section#banner{
+    background-image: url('../img/jane.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* cover é para ele ocupar de fato todo o espaço */
+    width: 100%;
+    height: 73vh;
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.corpo{
+    padding: 20px 100px;
+}
+
+/* about */
+
+#about{
+    text-align: center;
+}
+
+main section div#foto{
+    margin: 0 auto;
+    background-image: url('../img/jane2.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 34%;
+    /* cover é para ele ocupar de fato todo o espaço */
+    height: 300px;
+}
+
+/* Contact */
+
+/* Alteracoes 2 */
+
+section#concept, 
+section#songs,
+main#contact{
+    width: 900px;
+    margin: 30px auto;
+}
+
+section#songs img{
+    width: 100%;
+}
+
+.duas-colunas{
+    overflow: hidden;
+}
+.duas-colunas > div {
+    width: 50%;
+    float: left;
+}
+
+section#songs ol li {
+    padding: 10px 0;
+}
+
+section#songs ol li strong {
+    color: orange;
+}
+
+section#info-mapa iframe{
+    width: 100%;
+    height: 400px;
+}
+
+div.form-group > div{
+    margin: 0 0 10px;
+}
+
+form input[type=text],
+form input[type=email],
+form textarea{
+    padding: 5px;
+    width: 100%;
+    margin: 2px 0 10px;
+}
+    
+form textarea{
+    resize: none;
+    height: 100px;
+}
+
+form button{
+    border: none;
+    padding: 5px 20px;
+    background-color: orange;
+    color: white;
+}
+
+.mapa{
+    padding-left: 20px;
+}
